@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <div id="upper-div">
+            <a href="#" id="h1-a"><h1>wix</h1></a>
+            <div id="upper-main-div">
+            <div id="logos-div">
+            <i class='fas fa-desktop' style='font-size:40px'></i>
+            <hr id="hr">
+            <i class="fa fa-mobile-phone" style="font-size:40px"></i>
+            </div>
+            <p id="upper-nav-div">Click edit and create your own amazing website</p>
+            <a href="#" id="upper-nav-a">read more</a>
+            <button id="upper-div-btn">edit this site</button>
+            </div>
+        </div>
+        <div id="lower-div">
+            <h1 id="lower-div-h1">Daniel Tenant, PhD</h1>
+            <ul id="ul">
+                <a href="./about.html" class="lower-div-li"><li>about</li></a>
+                <a href="./publications.html" class="lower-div-li"><li>publications</li></a>
+                <a href="./research blog.html" class="lower-div-li"><li>research blog</li></a>
+                <a href="#" class="lower-div-li"><li>contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main">
+        <section id="section1">
+        <div id="background-section">
+            <div id="main-first-div">
+                <img src="./tipi.avif" id="main-first-img">
+                <div id="text-div">
+                <h1 id="main-first-h1">daniel tenant,phd</h1>
+                <p id="main-first-p-first">proffessor of chemistry</p>
+                <div id="main-logos-div">
+                <i class="fa fa-linkedin-square" style="font-size:30px;color: white;"></i>
+                <i class="fa fa-twitter" style="font-size:30px;color: white;"></i>
+                </div>
+                <p id="main-first-p-second">I'm a paragraph. Click here to add your own text and<br> edit me. It’s easy. Just click “Edit Text” or double click<br> me to add your own content and make changes to<br> the font. I’m a great place for you to tell a story<br> and let your users know a little more about you.</p>
+                <button id="main-first-btn">about me</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <section id="section2">
+            <div class="section2-divs" id="section2-1div">
+                <h1 id="section2-div1-h1">research<br> interests</h1>
+            </div>
+            <div class="section2-divs" id="section2-2div">
+                <p id="section2-div2-p1">I'm a paragraph. Click here to add your own text and<br> edit me. It’s easy. Just click “Edit Text” or double click me<br> to add your own content and make changes to the font.<br> Feel free to drag and drop me anywhere you like on<br> your page. I’m a great place for you to tell a story and let<br> your users know a little more about you.</p>
+                <p id="section2-div2-p2">This is a great space to write a long text about your<br> company and your services. You can use this space to<br> go into a little more detail about your company. Talk <br>about your team and what services you provide. Tell <br>your visitors the story of how you came up with the<br> idea for your business and what makes you different<br> from your competitors. Make your company stand out<br> and show your visitors who you are.</p>
+                <button id="section2-div2-btn">learn more</button>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="section3-divs" id="section3-div1">
+                <h1 id="section3-h1">publications</h1>
+            </div>
+            <div class="section3-divs" id="section3-div2">
+                <p id="section3-p1" class="section3-ps">D. Tenant "This is your publication title. Click to<br> edit", Accepted, Institute or journal title (2035)</p>
+                <p id="section3-p2" class="section3-ps">D. Tenant "This is your publication title. Click to<br> edit", Accepted, Institute or journal title (2035)</p>
+                <p id="section3-p3" class="section3-ps">D. Tenant "This is your publication title. Click to<br> edit", Accepted, Institute or journal title (2035)</p>
+                <button id="section3-btn">view all publications</button>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div id="section4-texts-div">
+                <h1 id="section4-h1">contact information</h1>
+                <p class="section4-p">departament of chemistry<br>science center</p>
+                <p class="section4-p">500 Terry Francine St.<br>San Francisco, CA 94158</p>
+                <p class="section4-p">info@mysite.com<br>123-456-7890</p>
+                <div id="section4-logos-div">
+                <i class="fa fa-linkedin-square" style="font-size:30px;color: white;"></i>
+                <i class="fa fa-twitter" style="font-size:30px;color: white;"></i>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <label for="name-input" class="labels">First name *</label>
+                    <input type="text" id="name-input" class="inputs" required>
+                </div>
+                <div class="grid-item">
+                    <label for="lastname-input" class="labels">Last name *</label>
+                    <input type="text" id="lastname-input" class="inputs required">
+                </div>
+                <div class="grid-item">
+                    <label for="email-input" class="labels">Email *</label>
+                    <input type="email" id="email-input" class="inputs required">
+                </div>
+                <div class="grid-item">
+                    <label for="message-input" class="labels">Subject</label>
+                    <input type="text" id="message-input" class="inputs">
+                </div>
+                <div class="grid-item">
+                    <label for="message-textarea" class="labels">Message *</label>
+                    <textarea id="message-textarea" class="inputs required" rows="4" cols="50"></textarea>
+                </div>
+                <div class="grid-item">
+                    <button type="button" id="submit-btn">submit</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p id="footer-p">c2035 by daniel tenant.powered and secured by <a href="#" id="footer-a">wix</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./research blog.css">
+</head>
+<body>
+    <nav id="nav">
+        <div id="upper-div">
+            <a href="#" id="h1-a"><h1>wix</h1></a>
+            <div id="upper-main-div">
+            <div id="logos-div">
+            <i class='fas fa-desktop' style='font-size:40px'></i>
+            <hr id="hr">
+            <i class="fa fa-mobile-phone" style="font-size:40px"></i>
+            </div>
+            <p id="upper-nav-div">Click edit and create your own amazing website</p>
+            <a href="#" id="upper-nav-a">read more</a>
+            <button id="upper-div-btn">edit this site</button>
+            </div>
+        </div>
+        <div id="lower-div">
+            <h1 id="lower-div-h1">Daniel Tenant, PhD</h1>
+            <ul id="ul">
+                <a href="./about.html" class="lower-div-li"><li>about</li></a>
+                <a href="./publications.html" class="lower-div-li"><li>publications</li></a>
+                <a href="./research blog.html" class="lower-div-li"><li>research blog</li></a>
+                <a href="#" class="lower-div-li"><li>contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    
+</body>
+</html>

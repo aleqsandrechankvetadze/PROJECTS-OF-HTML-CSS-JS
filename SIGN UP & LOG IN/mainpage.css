@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background: linear-gradient(to bottom,#0b0565, #3b3bc4, #1c93ab);
+}
+
+#nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    list-style-type: none;
+    transition: 0.5s;
+}
+
+ul:hover{
+    transform: scale(1.1);
+}
+
+#patara-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#patara-img:hover{
+    transform: scale(1.2);
+}
+
+#nav-div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#signup-btn{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(62, 30, 204);;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#signup-btn:hover{
+    color: #17137D;
+    background-color: white;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px black;
+}
+
+#login-btn{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(62, 30, 204);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+
+#login-btn:hover{
+    color: #17137D;
+    background-color: white;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px black;
+}
+
+#nav-btn-div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#nav-h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 816.49px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-div1{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    left:30px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logos-div{
+    display: flex;
+    gap: 35px;
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.fa-brands{
+    border: 0.5px solid rgb(145, 142, 142);
+    font-size: 30px;
+    color: white;
+    padding: 9px 18px;
+    transition: 0.5s;
+    border-radius: 20px;
+    position: relative;
+    right: 200px;
+    bottom: 35px;
+}
+
+.fa-brands:hover{
+    transform: scale(1.4);
+    background-color: rgb(160, 76, 238);;
+}
+
+#name-h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+}
+
+#name-p{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+
+#main-btn1{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: #17137D;
+    transition: 0.5s;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+}
+
+#main-btn1:hover{
+    transform: scale(1.2);
+    background-color: #17137D;
+    color: white;
+}
+
+#main-btn2{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: #17137D;
+    color: white;
+    transition: 0.5s;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+}
+
+#main-btn2:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: #17137D;
+}
+
+#btns-div{
+    display: flex;
+    gap: 50px;
+}
+
+#main-div2{
+    width: 475px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(215, 72%, 25%);
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+#main-div2:hover{
+    transform: scale(1.07);
+}
+
+#div-img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#div-img:hover{
+    transform: scale(1.1);
+}
+
+hr{
+    width: 350px;
+    border: 0.5px solid #808080;
+}
+
+#prosta-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#prosta-img:hover{
+    transform: scale(1.25);
+}
+
+#h2{
+    font-size: 30px;
+    color: white;
+}
+
+#prosta-p{
+    font-size: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+#prof-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:  hsl(178, 100%, 50%);
+    font-family: 'Courier New', Courier, monospace;;
+    font-size: 23.5px;
+    gap: 100px;
+}
+
+#img-p-div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#chank-p{
+    color: white;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    color: hsl(178, 100%, 50%);
+}
+
+#signup-a{
+    text-decoration: none;
+}
+

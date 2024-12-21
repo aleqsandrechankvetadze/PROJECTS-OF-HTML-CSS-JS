@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+}
+
+#nav{
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+#upper-div{
+    width: 100%;
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    background-color: white;
+}
+
+#upper-main-div{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+#logos-div{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+#upper-div h1{
+    font-size: 45px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+#h1-a{
+    text-decoration: none;
+    color: black;
+}
+
+#hr{
+    height: 50px;
+}
+
+#upper-nav-div{
+    font-size: 19px;
+    color:#20303c ;
+}
+
+#upper-nav-a{
+    color: #20303c;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+#upper-nav-a:hover{
+    color: rgb(67, 196, 239);
+}
+
+#upper-div-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #116dff;
+    color: white;
+    font-size: 17px;
+    text-transform:capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#upper-div-btn:hover{
+    background-color: #6094e8;
+}
+
+
+#lower-div{
+    width: 100%;
+    height: 65px;
+    background-color: #472915;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#lower-div-h1{
+    font-size: 28px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+    font-size: 23px;
+}
+
+.lower-div-li{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lower-div-li:hover{
+    color: #a37658;
+}
+
+#main {
+    margin-top: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+#main-h1 {
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: left; 
+    width: 750px; 
+    margin-bottom: 40px; 
+}
+
+#section1-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#section1-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px; 
+}
+
+#btn-div {
+    display: flex;
+    gap: 30px;
+}
+
+#section1-nav-p {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #21201e;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+#nav-btn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#section1-div{
+    margin-top: 50px;
+    width: 800px;
+    height: 1670px;
+    border: 1px solid black;
+}
+
+#img-div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#section1-div-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px ;
+}
+
+#img-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#main-texts-div{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#h1-1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#p1{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#p2{
+    font-size: 19px;
+    color:#21201e;
+}
+
+#p3{
+    font-size: 25px;
+}
+
+#p4{
+    font-size: 20px;
+}
+
+#h1-2{
+    font-size: 30px;
+}
+
+#p5{
+    font-size: 18px;
+}
+
+#p6{
+    font-size: 18px;
+}
+
+#hr{
+    border: none; 
+    height: 1px;
+    background-color: #21201e;
+}
+
+#logos1-div{
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+}
+
+#index{
+    text-decoration: none;
+    color: white;
+}
+
